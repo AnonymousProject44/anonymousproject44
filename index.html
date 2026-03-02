@@ -4,11 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Supplementary Material for Double-Blind Review</title>
+    <style>
+        /* Base page styling and font configuration */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 2rem;
+        }
+
+        /* Central container to restrict maximum width */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 3rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        /* Main title styling */
+        h1 {
+            color: #2c3e50;
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        /* Abstract section styling */
+        .abstract {
+            background-color: #f8f9fa;
+            padding: 1.5rem;
+            border-left: 4px solid #3498db;
+            margin-bottom: 2.5rem;
+        }
+
+        /* Abstract header styling */
+        .abstract h2 {
+            margin-top: 0;
+            font-size: 1.2rem;
+            color: #2c3e50;
+        }
+
+        /* Abstract paragraph text styling */
+        .abstract p {
+            margin-bottom: 0;
+            text-align: justify;
+        }
+
+        /* Grid layout for resource links */
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        /* Button appearance for all links */
+        .btn {
+            display: inline-block;
+            background-color: #3498db;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 1rem;
+            text-align: center;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Hover interaction for buttons */
+        .btn:hover {
+            background-color: #2980b9;
+        }
+    </style>
 </head>
 <body>
-    <h1>Supplementary Data Archive</h1>
-    <p>This repository contains the supplementary materials required for the double-blind peer review process.</p>
-    
-    <a href="URL_TO_YOUR_500GB_STORAGE">Access the Complete Dataset</a>
+    <div class="container">
+        
+        <h1>Revisiting the Fundamentals of Swarm Robotics: Event-based Analysis of Biological Swarms</h1>
+        
+        <div class="abstract">
+            <h2>Abstract</h2>
+            <p>Scalability and high-speed coordination remain primary challenges in aerial swarm robotics even though the agility of individual autonomous aerial robots has increased dramatically in the recent years. To tackle these challenges, we revisit some of the core methods and assumptions commonly applied in swarm robotics by studying the underlying principles of the biological systems that inspire and motivate most of the research in this field. Specifically, we analyze maneuvers of large-scale flocks of Columba livia (rock dove) using data captured by an event stereo camera. This setup provides novel insights over existing research relying on standard cameras or Global Navigation Satellite Systems (GNSS) trackers, such as 3D trajectory reconstruction with a microsecond-accurate temporal resolution or even wingbeat frequency and other visual cues that may be utilized by the animals for agile coordination. Our analysis shows that these biological flocks utilize a dynamic leadership mechanism driven by local visual perception, which challenges the classical consensus-based robotic approaches such as boids-like swarming. As we show in simulated experiments, a dynamic leadership-based swarming rule not only better explains the observed biological data when compared to a conventional approach, but also leads to more efficient trajectories of the individual agents. We publish details about our methodology including the design of the event stereo camera device for capturing the data, open-source implementation, as well as the captured datasets, to stimulate further research of biological swarms and the transfer of these findings to robotic systems.</p>
+        </div>
+
+        <div class="links-grid">
+            <a href="#" class="btn">Download Manuscript PDF</a>
+            
+            <a href="#" class="btn">Real Data Analysis Repository</a>
+            
+            <a href="#" class="btn">Simulation Repository</a>
+            
+            <a href="#" class="btn">Access Full Dataset Archive</a>
+        </div>
+        
+    </div>
 </body>
 </html>
