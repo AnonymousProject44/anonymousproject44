@@ -33,6 +33,32 @@
             margin-bottom: 2rem;
         }
 
+        /* Video section styling moved to the top */
+        .video-section {
+            margin-bottom: 2.5rem;
+            text-align: center;
+        }
+
+        /* Hook text styling to grab the reviewer attention */
+        .video-hook {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #e74c3c;
+            background-color: #fdf5f5;
+            padding: 1rem;
+            border-radius: 4px;
+            border-left: 4px solid #e74c3c;
+            margin-bottom: 1.5rem;
+            text-align: left;
+        }
+
+        /* Embedded video styling */
+        .video-section iframe {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
         /* Abstract section styling */
         .abstract {
             background-color: #f8f9fa;
@@ -89,25 +115,19 @@
         .btn:hover {
             background-color: #2980b9;
         }
-
-        /* Video container styling */
-        .video-section {
-            margin-top: 3rem;
-            text-align: center;
-        }
-
-        /* Video element styling */
-        .video-section video {
-            max-width: 100%;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
     </style>
 </head>
 <body>
     <div class="container">
         
         <h1>Revisiting the Fundamentals of Swarm Robotics: Event-based Analysis of Biological Swarms</h1>
+
+        <div class="video-section">
+            <div class="video-hook">
+                We strongly encourage reviewing this brief supplementary video prior to reading the manuscript. It provides compelling visual evidence of the high-speed coordination and dynamic leadership mechanisms that form the core contribution of our work.
+            </div>
+            <iframe width="100%" height="450" src="https://www.youtube.com/embed/1aay1sYb8S0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
         
         <div class="abstract">
             <h2>Abstract</h2>
@@ -160,14 +180,6 @@
                 <a href="https://osf.io/dur8z/overview?view_only=e77a171b1d3e4d4aaf1ea5ca90618e4c" class="btn">Access Full Dataset Archive</a>
             </div>
 
-        </div>
-        
-        <h3>Video</h3>
-        <div class="video-section">
-            <video controls playsinline>
-                <source src="irosweb.mov" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
         </div>
         
     </div>
