@@ -123,42 +123,27 @@
         <h1>Revisiting the Fundamentals of Swarm Robotics: Event-based Analysis of Biological Swarms</h1>
 
         <div class="video-section">
-            <div class="video-hook">
-                We encourage reviewing this brief supplementary video. It provides compelling visual evidence of the high-speed coordination and dynamic leadership mechanisms that form the core contribution of our work.
-            </div>
-            <iframe width="100%" height="450" src="https://www.youtube.com/embed/1aay1sYb8S0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <video width="100%" height="450" controls>
+                <source src="ICRA_video_subtitled.mp4" type="video/mp4">  
+                Your browser does not support the video tag.
+            </video>
         </div>
         
         <div class="abstract">
             <h2>Abstract</h2>
-            <p>Scalability and high-speed coordination remain
-               primary challenges in aerial swarm robotics even though the
-               agility of individual autonomous aerial robots has increased
-               dramatically in the recent years. To tackle these challenges, we
-               revisit some of the core methods and assumptions commonly
-               applied in swarm robotics by studying the underlying principles
-               of the biological systems that inspire and motivate most of
-               the research in this field. Specifically, we analyze maneuvers
-               of large-scale flocks of <em>Columba livia</em> (rock dove) using data
-               captured by an event stereo camera. This setup provides novel
-               insights over existing research relying on standard cameras
-               or Global Navigation Satellite Systems (GNSS) trackers, such
-               as 3D trajectory reconstruction with a microsecond-accurate
-               temporal resolution or even wingbeat frequency and other
-               visual cues that may be utilized by the animals for agile
-               coordination. Our analysis shows that these biological flocks
-               utilize a dynamic leadership mechanism driven by local visual 
-               perception, which challenges the classical consensus-based
-               robotic approaches such as boids-like swarming. As we show in
-               simulated experiments, a dynamic leadership-based swarming
-               rule not only better explains the observed biological data
-               when compared to a conventional approach, but also leads to
-               more efficient trajectories of the individual agents. We publish
-               details about our methodology including the design of the
-               event stereo camera device for capturing the data, open-source
-               implementation, as well as the datasets, to stimulate further
-               research of biological swarms and the transfer of these findings
-               to robotic systems.
+            <p>Scalability and highly dynamic coordination remain primary challenges in aerial swarm robotics, despite recent advances 
+            in the agility of individual autonomous aerial robots. To tackle these challenges, we revisit some of the core methods and 
+            assumptions commonly applied in swarm robotics by studying the underlying principles of biological systems that inspire and 
+            motivate most of the research in this field. Specifically, we analyze behavior of large-scale flocks of <em Columba livia></em> 
+            (rock dove) using data captured by a pair of event cameras. This setup provides novel insights into existing research that 
+            relies on standard cameras or GNSS trackers; namely, it allows for microsecond-accurate temporal resolution of fully 
+            reconstructed 3D trajectories together with wing motion and other visual cues that may be utilized by the animals for agile 
+            coordination. Our analysis suggests that observed biological flocks utilize a <em dynamic hierarchy></em> mechanism, which 
+            challenges consensus-based approaches commonly applied in robotics. As we demonstrate by experiments simulating fixed-wing 
+            UAVs, a swarming rule based on dynamic hierarchy not only better explains the observed data, but also matches 
+            the baselines' efficiency with more consistent performance. We publish details about our methodology including the design 
+            of the event stereo camera device for capturing the data, open-source implementation, as well as the datasets, to stimulate 
+            further research of biological swarms and the transfer of these findings to robotic systems.
             </p>
         </div>
 
